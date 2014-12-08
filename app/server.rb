@@ -3,7 +3,7 @@ require 'data_mapper'
 
 require './lib/post'
 
-require_relative 'data_mapper_setup'
+require_relative 'data_mapper_setup.rb'
 
 set :partial_template_engine, :erb
 set :public_folder, Proc.new { File.join(root, '.', 'public') }
