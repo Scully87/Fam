@@ -1,13 +1,9 @@
 require 'sinatra'
 require 'data_mapper'
-env = ENV["RACK_ENV"] || "development"
-DataMapper.setup(:default, "postgres://localhost/onnie_#{env}")
 
 require './lib/post'
 
-DataMapper.finalize
-
-DataMapper.auto_upgrade!
+require_relative 'data_mapper_setup'
 
 set :partial_template_engine, :erb
 set :public_folder, Proc.new { File.join(root, '.', 'public') }
