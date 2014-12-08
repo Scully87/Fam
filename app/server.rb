@@ -8,7 +8,6 @@ require './lib/post'
 
 DataMapper.finalize
 
-DataMapper.auto_upgrade!
 
 set :partial_template_engine, :erb
 set :public_folder, Proc.new { File.join(root, '.', 'public') }
