@@ -1,15 +1,19 @@
-source "https://www.rubygems.org/"
-ruby '2.1.5'
+source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
-gem 'dm-timestamps'
-gem 'dm-validations'
+gem 'rack-flash3'
+gem 'bcrypt-ruby'
+gem 'rack'
+gem 'sinatra-partial'
 
 group :development, :test do
-  gem 'rspec'
-  gem 'database_cleaner'
-  gem 'capybara'
-  gem 'launchy'
+	gem 'cucumber'
+	gem 'cucumber-sinatra'
+	gem 'launchy'
+	gem 'capybara'
+	gem 'rspec'
+	gem 'shotgun'
+	gem 'database_cleaner'
 end
