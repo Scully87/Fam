@@ -1,30 +1,33 @@
-Simple Website Template
+Website For Mum
 ========================
 
-####A simple file structure created to produce a quick sinatra application for site building
+####A website created for Mum so that the link to her friends for them to wish her a Happy Birthday!!
 
 #####Technologies Used:
 
   - Sinatra
   - Sinatra-partial
   - ERB
-  - HTML
+  - HTML5
   - JQuery
-  - CSS Reset
-  - CSS Normalize
-  - RSpec for Testing
+  - CSS3 
+  - postgreSQL
+  - RSpec
+  - Capybara
+  - Bootstrap
+  - Data Mapper
 
 How to Use:
 ------------
 
 Clone the Repository:
 ```shell
-$ git clone git@github.com:Scully87/Sinatra-Template.git
+$ git clone git@github.com:Scully87/Fam.git
 ```
 
 Open the Directory:
 ```shell
-$ cd Sinatra-Template
+$ cd Fam
 ```
 Install the files:
 ```shell
